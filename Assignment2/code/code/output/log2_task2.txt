@@ -1,0 +1,82 @@
+   duration protocol direction  ...          pps           bps         bpp
+0  0.000318      udp       <->  ...  9146.341463  5.945122e+05   65.000000
+1  0.039559      tcp        ->  ...   176.906164  2.168364e+04  122.571429
+2  0.000423      udp       <->  ...  4618.937644  1.293303e+06  280.000000
+3  2.990280      udp        ->  ...     1.003247  5.852275e+01   58.333333
+4  0.000541      udp       <->  ...  3629.764065  8.566243e+05  236.000000
+
+[5 rows x 10 columns]
+dataset name:  val
+tn:0.21533489043905873,fp:0.017648354201671202,fn:0.5375916186790264,tp:0.22942513668024367
+mark is: 22.83267184901846
+Precision: 0.9285704259948067
+Recall: 0.299113591818188
+F1-score: 0.45247479212156544
+ACC: 0.4447600271193024
+AUC score： 0.6116820675592384
+dataset name:  test
+tn:0.10059489922229592,fp:0.004980997000259409,fn:0.6019537486311398,tp:0.2924703551463048
+mark is: 18.226417655465095
+Precision: 0.9832544146654102
+Recall: 0.3269929264105329
+F1-score: 0.49077335000503947
+ACC: 0.39306525436860074
+AUC score： 0.639906812638818
+147.32.84.165->147.32.80.9       4615
+147.114.98.192->147.32.94.5      3809
+147.49.95.181->147.32.91.2       3543
+147.86.100.176->147.32.96.7      3443
+147.101.94.182->147.32.90.101    3415
+147.148.92.184->147.32.88.101    3400
+147.143.92.183->147.32.88.101    3331
+147.166.98.177->147.32.94.5      3317
+147.187.100.175->147.32.96.7     3312
+147.153.92.185->147.32.88.101    3237
+147.195.94.181->147.32.90.101    3221
+147.32.84.204->147.32.80.9       3203
+147.66.97.191->147.32.93.4       3183
+147.122.97.192->147.32.93.4      3169
+147.86.92.200->147.32.88.101     3165
+Name: conversation, dtype: int64
+epoch:1,grad for sample,prob:[[0.02585631 0.97414369]]
+epoch:2,grad for sample,prob:[[0.02844497 0.97155503]]
+epoch:3,grad for sample,prob:[[0.03128447 0.96871553]]
+epoch:4,grad for sample,prob:[[0.03439739 0.96560261]]
+epoch:5,grad for sample,prob:[[0.03780796 0.96219204]]
+epoch:6,grad for sample,prob:[[0.04154215 0.95845785]]
+epoch:7,grad for sample,prob:[[0.04562767 0.95437233]]
+epoch:8,grad for sample,prob:[[0.05009399 0.94990601]]
+epoch:9,grad for sample,prob:[[0.05497231 0.94502769]]
+epoch:10,grad for sample,prob:[[0.06029554 0.93970446]]
+epoch:11,grad for sample,prob:[[0.0660982 0.9339018]]
+epoch:12,grad for sample,prob:[[0.07241625 0.92758375]]
+epoch:13,grad for sample,prob:[[0.07928694 0.92071306]]
+epoch:14,grad for sample,prob:[[0.08674855 0.91325145]]
+epoch:15,grad for sample,prob:[[0.09484003 0.90515997]]
+epoch:16,grad for sample,prob:[[0.10360062 0.89639938]]
+epoch:17,grad for sample,prob:[[0.11306936 0.88693064]]
+epoch:18,grad for sample,prob:[[0.1232845 0.8767155]]
+epoch:19,grad for sample,prob:[[0.13428278 0.86571722]]
+epoch:20,grad for sample,prob:[[0.14609872 0.85390128]]
+epoch:21,grad for sample,prob:[[0.15876371 0.84123629]]
+epoch:22,grad for sample,prob:[[0.17230505 0.82769495]]
+epoch:23,grad for sample,prob:[[0.18674498 0.81325502]]
+epoch:24,grad for sample,prob:[[0.20209956 0.79790044]]
+epoch:25,grad for sample,prob:[[0.21837762 0.78162238]]
+epoch:26,grad for sample,prob:[[0.23557969 0.76442031]]
+epoch:27,grad for sample,prob:[[0.25369699 0.74630301]]
+epoch:28,grad for sample,prob:[[0.27271053 0.72728947]]
+epoch:29,grad for sample,prob:[[0.29259038 0.70740962]]
+epoch:30,grad for sample,prob:[[0.31329515 0.68670485]]
+epoch:31,grad for sample,prob:[[0.33477171 0.66522829]]
+epoch:32,grad for sample,prob:[[0.35695522 0.64304478]]
+epoch:33,grad for sample,prob:[[0.37976952 0.62023048]]
+epoch:34,grad for sample,prob:[[0.40312785 0.59687215]]
+epoch:35,grad for sample,prob:[[0.42693393 0.57306607]]
+epoch:36,grad for sample,prob:[[0.45108339 0.54891661]]
+epoch:37,grad for sample,prob:[[0.47546549 0.52453451]]
+epoch:38,grad for sample,prob:[[0.49996513 0.50003487]]
+epoch:39,grad for sample,prob:[[0.52446493 0.47553507]]
+success generate adversarial sample
+
+Process finished with exit code 0
